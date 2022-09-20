@@ -14,10 +14,10 @@
         <th rowspan="2">Flighted</th>
         <th colspan="2">Maximum mass</th>
     </tr>
-        <th>kg</th>
-        <th>pounds</th>
-        <th>kg</th>
-        <th>pounds</th>
+    <th>kg</th>
+    <th>pounds</th>
+    <th>kg</th>
+    <th>pounds</th>
     <tr>
 
     </tr>
@@ -49,5 +49,44 @@
     </tr>
     </tbody>
 </table>
+
+<h1>Marathon Form Registration</h1>
+<form action="#">
+    <section>
+        <label for="first">First Name</label>
+        <input type="text" id="first" name="firstname" required>
+        <label for="last">Last Name</label>
+        <input type="text" id="last" name="lastname" required>
+    </section>
+    <p>Select a Race:</p>
+    <section>
+        <input type="radio" name="race" id="funrun" value="5k">
+        <label for="funrun">Fun Run 5km</label>
+    </section>
+    <section>
+        <input type="radio" name="race" id="half" value="half">
+        <label for="half">Half Marathon</label>
+    </section>
+    <section>
+        <input type="radio" name="race" id="full" value="full">
+        <label for="full">Full Marathon</label>
+    </section>
+    <section>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+    </section>
+    <section>
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age">
+            <option value="kids">under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">50+</option>
+        </select>
+    </section>
+    <button>Register</button>
+</form>
 </body>
 </html>
