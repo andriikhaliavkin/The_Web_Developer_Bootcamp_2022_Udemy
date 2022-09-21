@@ -1,0 +1,16 @@
+h1 {
+    font-family: "Alien Mine";
+    color: rebeccapurple;
+    color: #00ff00;
+    color: rgb(214, 122, 127);
+    color: hsl(30, 100%, 50%);
+    color: hsla(30, 100%, 50%, .3);
+
+    font-size: xxx-large;
+    font-weight: 900;
+    line-height: 6rem;
+    letter-spacing: 2rem;
+    background-color: bisque;
+    border: gold 5px solid;
+}
+
